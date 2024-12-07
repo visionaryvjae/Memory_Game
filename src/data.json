@@ -1,102 +1,102 @@
 {
     "cards" : [
         {
-            "image": "public/icons/cat.png",
+            "image": "/icons/cat.png",
             "flipped": false,
             "CardNumber": 1
         },
         {
-            "image": "public/icons/girl.png",
+            "image": "/icons/girl.png",
             "flipped": false,
             "CardNumber": 2
         },
         {
-            "image": "public/icons/happy.png",
+            "image": "/icons/happy.png",
             "flipped": false,
             "CardNumber": 3
         },
         {
-            "image": "public/icons/heart.png",
+            "image": "/icons/heart.png",
             "flipped": false,
             "CardNumber": 4
         },
         {
-            "image": "public/icons/hedgehog.png",
+            "image": "/icons/hedgehog.png",
             "flipped": false,
             "CardNumber": 5
         },
         {
-            "image": "public/icons/panda.png",
+            "image": "/icons/panda.png",
             "flipped": false,
             "CardNumber": 6
         },
         {
-            "image": "public/icons/sloth.png",
+            "image": "/icons/sloth.png",
             "flipped": false,
             "CardNumber": 7
         },
         {
-            "image": "public/icons/rabbit.png",
+            "image": "/icons/rabbit.png",
             "flipped": false,
             "CardNumber": 8
         },
         {
-            "image": "public/icons/koala.png",
+            "image": "/icons/koala.png",
             "flipped": false,
             "CardNumber": 9
         },
         {
-            "image": "public/icons/puppy.png",
+            "image": "/icons/puppy.png",
             "flipped": false,
             "CardNumber": 10
         },
         {
-            "image": "public/icons/cat.png",
+            "image": "/icons/cat.png",
             "flipped": false,
             "CardNumber": 11
         },
         {
-            "image": "public/icons/girl.png",
+            "image": "/icons/girl.png",
             "flipped": false,
             "CardNumber": 12
         },
         {
-            "image": "public/icons/happy.png",
+            "image": "/icons/happy.png",
             "flipped": false,
             "CardNumber": 13
         },
         {
-            "image": "public/icons/heart.png",
+            "image": "/icons/heart.png",
             "flipped": false,
             "CardNumber": 14
         },
         {
-            "image": "public/icons/hedgehog.png",
+            "image": "/icons/hedgehog.png",
             "flipped": false,
             "CardNumber": 15
         },
         {
-            "image": "public/icons/panda.png",
+            "image": "/icons/panda.png",
             "flipped": false,
             "CardNumber": 16
         },
         {
-            "image": "public/icons/sloth.png",
+            "image": "/icons/sloth.png",
             "flipped": false,
             "CardNumber": 17
         },
         {
-            "image": "public/icons/rabbit.png",
+            "image": "/icons/rabbit.png",
             "flipped": false,
             "CardNumber": 18
         },
         {
-            "image": "public/icons/koala.png",
+            "image": "/icons/koala.png",
             "flipped": false,
             "CardNumber": 19
         },
         {
-            "image": "public/icons/puppy.png",
+            "image": "/icons/puppy.png",
             "flipped": false,
             "CardNumber": 20
         }
