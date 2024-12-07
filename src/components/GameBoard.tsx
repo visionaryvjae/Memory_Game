@@ -6,6 +6,8 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 import GameEnd from "./GameEnd";
 
+const app = import.meta.env.VITE_APP_URL;
+
 function GameBoard() {
 
   const [nums, setNums] = useState<[
@@ -116,13 +118,13 @@ function GameBoard() {
 
   const Reset =()=> {
     if(value.gamemode == "easy"){
-      navigate(0);
+      navigate(`${app}`, {state: {gamemode: "easy"}});
     }
     else if(value.gamemode == "normal"){
-      navigate(0);
+      navigate(`${app}`, {state: {gamemode: "easy"}});
     }
     else{
-      navigate(0);
+      navigate(`${app}`, {state: {gamemode: "easy"}});
     }
     console.log("clicked")
 
