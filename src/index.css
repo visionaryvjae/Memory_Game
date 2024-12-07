@@ -38,7 +38,7 @@
 }
 
 .gameEndHeader {
-  @apply basis-1/6 flex items-start justify-center h-full w-full ;
+  @apply basis-1/6 flex items-center justify-center h-full w-full text-3xl font-bold underline;
 }
 
 .gameEndFooter {
