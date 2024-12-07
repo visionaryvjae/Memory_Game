@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.maincontainer{
+  @apply w-screen h-screen flex items-center justify-center backgroundImage;
+}
+
+.card{
+  @apply h-[90px] w-[150px] flex items-center justify-center bg-green-400 rounded-md;
+}
+
+.front {
+  @apply absolute w-[150px] h-[90px] bg-red-200 rounded-md backface-hidden;
+}
+
+.back {
+  @apply absolute w-[1500px] h-[90px] bg-blue-200 rounded-md backface-hidden;
+}
+
+.links:hover{
+  text-decoration: underline;
+  color: rgb(80, 140, 120);
+  
+}
+
+.links {
+  text-align: right;
+  margin-left: 1rem;
+}
+
+.gameModebtn:hover{
+  @apply bg-yellow-300 h-[20%] w-[51%] text-lg font-bold text-white;
+}
+
+.gameModebtn {
+  @apply bg-purple-500 h-[20%] w-[50%] flex items-center justify-center rounded-md shadow-md m-2 cursor-pointer
+}
+
+.gameEndHeader {
+  @apply basis-1/6 flex items-start justify-center h-full w-full ;
+}
+
+.gameEndFooter {
+  @apply basis-2/6 flex items-center justify-center h-full w-full ;
+}
+
+.gameEndContent {
+  @apply basis-3/6 flex items-center justify-center h-full w-full ;
+}
+
+.gameEndLabel {
+  @apply font-bold m-2;
+}
+
+.gameEndRetry:hover{
+  text-decoration: underline;
+}
+
+.gameEndRetry {
+  @apply flex  items-center justify-center flex-col h-full;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180{
+  transform: rotateY(180deg);
+}
+
+.backgroundImage {
+  background-image: url('src/assets/game-bg.jpg');
+}
