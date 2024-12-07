@@ -6,7 +6,6 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 import GameEnd from "./GameEnd";
 
-const app = import.meta.env.VITE_APP_URL;
 
 function GameBoard() {
 
