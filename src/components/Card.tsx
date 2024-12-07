@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect} from "react";
 
 interface  Props {
   display:string;
@@ -12,34 +12,7 @@ function Card({display, hide, isFlipped, index, HandleClick}:Props) {
 
   let Flipped = isFlipped;
 
-  const [time, setTime] = useState(0);
-
-  const unFlipCard = (flipped: boolean) => {
-    // while(isFlipped){
-    //   Flipped = true;
-
-    //   let count = 1;
-
-    //   const interval2 = setInterval(() => {
-    //     if(count < 5){
-    //       console.log(count);
-    //       count++;
-    //     }
-    //     else{
-    //       clearInterval(interval2);
-    //       console.log('event ended');
-    //       Flipped = false;
-    //     }
-    //   }, 100)
-    // }  
-
-    if(Flipped){
-      Flipped = false;
-    }
-  }
-
   useEffect(()=> {
-    let count = 0;
     if(isFlipped){
       setTimeout(()=> {
         Flipped = false;
