@@ -1,102 +1,102 @@
 {
     "cards" : [
         {
-            "image": "https://picsum.photos/id/40/90",
+            "image": "public/icons/cat.png",
             "flipped": false,
             "CardNumber": 1
         },
         {
-            "image": "https://picsum.photos/id/41/90",
+            "image": "public/icons/girl.png",
             "flipped": false,
             "CardNumber": 2
         },
         {
-            "image": "https://picsum.photos/id/42/90",
+            "image": "public/icons/happy.png",
             "flipped": false,
             "CardNumber": 3
         },
         {
-            "image": "https://picsum.photos/id/43/90",
+            "image": "public/icons/heart.png",
             "flipped": false,
             "CardNumber": 4
         },
         {
-            "image": "https://picsum.photos/id/44/90",
+            "image": "public/icons/hedgehog.png",
             "flipped": false,
             "CardNumber": 5
         },
         {
-            "image": "https://picsum.photos/id/45/90",
+            "image": "public/icons/panda.png",
             "flipped": false,
             "CardNumber": 6
         },
         {
-            "image": "https://picsum.photos/id/46/90",
+            "image": "public/icons/sloth.png",
             "flipped": false,
             "CardNumber": 7
         },
         {
-            "image": "https://picsum.photos/id/47/90",
+            "image": "public/icons/rabbit.png",
             "flipped": false,
             "CardNumber": 8
         },
         {
-            "image": "https://picsum.photos/id/48/90",
+            "image": "public/icons/koala.png",
             "flipped": false,
             "CardNumber": 9
         },
         {
-            "image": "https://picsum.photos/id/49/90",
+            "image": "public/icons/puppy.png",
             "flipped": false,
             "CardNumber": 10
         },
         {
-            "image": "https://picsum.photos/id/40/90",
+            "image": "public/icons/cat.png",
             "flipped": false,
             "CardNumber": 11
         },
         {
-            "image": "https://picsum.photos/id/41/90",
+            "image": "public/icons/girl.png",
             "flipped": false,
             "CardNumber": 12
         },
         {
-            "image": "https://picsum.photos/id/42/90",
+            "image": "public/icons/happy.png",
             "flipped": false,
             "CardNumber": 13
         },
         {
-            "image": "https://picsum.photos/id/43/90",
+            "image": "public/icons/heart.png",
             "flipped": false,
             "CardNumber": 14
         },
         {
-            "image": "https://picsum.photos/id/44/90",
+            "image": "public/icons/hedgehog.png",
             "flipped": false,
             "CardNumber": 15
         },
         {
-            "image": "https://picsum.photos/id/45/90",
+            "image": "public/icons/panda.png",
             "flipped": false,
             "CardNumber": 16
         },
         {
-            "image": "https://picsum.photos/id/46/90",
+            "image": "public/icons/sloth.png",
             "flipped": false,
             "CardNumber": 17
         },
         {
-            "image": "https://picsum.photos/id/47/90",
+            "image": "public/icons/rabbit.png",
             "flipped": false,
             "CardNumber": 18
         },
         {
-            "image": "https://picsum.photos/id/48/90",
+            "image": "public/icons/koala.png",
             "flipped": false,
             "CardNumber": 19
         },
         {
-            "image": "https://picsum.photos/id/49/90",
+            "image": "public/icons/puppy.png",
             "flipped": false,
             "CardNumber": 20
         }

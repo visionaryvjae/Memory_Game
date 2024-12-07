@@ -190,6 +190,7 @@ function GameBoard() {
           <a href="https://www.pexels.com/photo/scrabble-board-game-on-shallow-focus-lens-1153929/"className="links">
             @Photo by Suzy Hazelwood on Pexels. 
           </a>
+          <a href="https://www.flaticon.com/free-icons/cute" title="cute icons" className="links">@Cute icons created by Smashicons - Flaticon</a>
         </div>
         {
           gameEnd ?

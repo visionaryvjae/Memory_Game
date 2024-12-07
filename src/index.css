@@ -7,21 +7,20 @@
 }
 
 .card{
-  @apply lg:h-[90px] lg:w-[150px] w-[70px] h-[70px] flex items-center justify-center bg-green-400 rounded-md;
+  @apply lg:h-[90px] lg:w-[120px] w-[70px] h-[70px] flex items-center justify-center bg-green-400 rounded-md;
 }
 
 .front {
-  @apply absolute lg:w-[150px] lg:h-[90px] w-[70px] h-[70px] bg-red-200 rounded-md backface-hidden;
+  @apply absolute lg:w-[120px] lg:h-[90px] w-[70px] h-[70px] bg-red-200 rounded-md backface-hidden;
 }
 
 .back {
-  @apply absolute lg:w-[1500px] lg:h-[90px] w-[70px] h-[70px] bg-blue-200 rounded-md backface-hidden;
+  @apply absolute lg:w-[120px] lg:h-[90px] w-[70px] h-[70px] bg-blue-200 rounded-md backface-hidden;
 }
 
 .links:hover{
+  @apply text-yellow-400;
   text-decoration: underline;
-  color: rgb(80, 140, 120);
-  
 }
 
 .links {
@@ -74,5 +73,5 @@
 }
 
 .backgroundImage {
-  background-image: url('src/assets/game-bg.jpg');
+  background-image: url('/game-bg.jpg');
 }
