@@ -116,19 +116,20 @@ function GameBoard() {
 
 
   const Reset =()=> {
-    if(value.gamemode == "easy"){
-      window.location.reload();
-      setTimer(90);
-    }
-    else if(value.gamemode == "normal"){
-      window.location.reload();
-      setTimer(70);
-    }
-    else{
-      window.location.reload();
-      setTimer(50);
-    }
-    console.log("clicked")
+    // if(value.gamemode == "easy"){
+    //   window.location.reload();
+    //   setTimer(90);
+    // }
+    // else if(value.gamemode == "normal"){
+    //   window.location.reload();
+    //   setTimer(70);
+    // }
+    // else{
+    //   window.location.reload();
+    //   setTimer(50);
+    // }
+    // console.log("clicked")
+    navigate('/');
 
     // setMoves(0);
     // setScore(0);

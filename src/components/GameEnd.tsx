@@ -1,5 +1,5 @@
 import { BsArrowLeftCircleFill } from "react-icons/bs";
-import { CgClose, CgRedo } from "react-icons/cg";
+import { CgClose } from "react-icons/cg"; //CgReset
 import { useNavigate } from "react-router-dom";
 
 interface Props {
@@ -10,7 +10,7 @@ interface Props {
     close: ()=> void;
 }
 
-function GameEnd({score, time, moves, reset, close}:Props) {
+function GameEnd({score, time, moves, close}:Props) {
 
     const navigate = useNavigate();
 
@@ -33,12 +33,12 @@ function GameEnd({score, time, moves, reset, close}:Props) {
             </div>
         </div>
         <div className="gameEndFooter flex-col">
-            <div className="flex flex-1 items-center justify-center w-[100%]" onClick={reset}>
+            {/* <div className="flex flex-1 items-center justify-center w-[100%]" onClick={reset}>
                 <div className="gameEndRetry cursor-pointer">
                     <CgRedo className="text-4xl" onClick={reset}/>
                     <p>Retry</p>
                 </div>
-            </div>
+            </div> */}
             <div className="flex flex-1 items-center justify-center w-[100%]">
                 <div className="flex items-center justify-center bg-red-300 rounded-md w-[45%] pt-2 pb-2 cursor-pointer" onClick={()=> navigate('/')}>
                     <BsArrowLeftCircleFill className="text-lg m-2"/>
