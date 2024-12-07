@@ -15,13 +15,13 @@ function GameEnd({score, time, moves, close}:Props) {
     const navigate = useNavigate();
 
     const GameMessage =(gameScore:number, myMoves:number)=> {
-        if(gameScore == 10 && myMoves >= 40){
-            return "Congratulations!"
+        if(gameScore == 10 && myMoves >= 31){
+            return "Congratulations!!!"
         }
-        else if(gameScore == 10 && myMoves >= 30){
+        else if(gameScore == 10 && myMoves <= 30){
             return 'Congratulations, you won!!! Slick Moves ;)'
         }
-        else if(gameScore == 10 && myMoves >= 20){
+        else if(gameScore == 10 && myMoves <= 20){
             return 'Congratulations, you won!!! Incredible performance XD'
         }
         else if(gameScore == 10 && myMoves <= 16){
