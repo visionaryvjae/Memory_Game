@@ -1,4 +1,3 @@
-import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
 function Menu() {
@@ -6,7 +5,7 @@ function Menu() {
     const navigate = useNavigate();
 
   return (
-    <div className='flex h-[50vh] w-[40vw] items-center justify-center flex-col font-mono'>
+    <div className='flex h-[70%] w-[80%] lg:h-[50vh] lg:w-[40vw] items-center justify-center flex-col font-mono'>
         <div className='basis-1/5 flex h-full w-full items-center justify-center bg-green-400 rounded-t-md'>
             <h1 className='text-2xl font-bold'>Welcome</h1>
         </div>

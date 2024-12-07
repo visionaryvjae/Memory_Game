@@ -3,7 +3,6 @@ import Card from "./Card"
 import { RiRefreshLine } from "react-icons/ri";
 import data from "../data.json";
 import { useLocation, useNavigate } from "react-router-dom";
-import { BsArrowLeft, BsBack } from "react-icons/bs";
 import { FaArrowLeft } from "react-icons/fa";
 import GameEnd from "./GameEnd";
 
@@ -81,6 +80,7 @@ function GameBoard() {
 
   const HandleClickEvent = async(index:number)=> {
     if(started){
+      console.log(currentCard)
       setCurrentItem(nums[index].CardNumber);
 
       setMoves(moves + 0.5);
@@ -148,7 +148,7 @@ function GameBoard() {
     }
   }, [])
   return (
-    <div className="h-[89vh] w-[50vw] flex flex-col font-mono items-center justify-center">
+    <div className="h-[90%] w-[90%] md:h-[70%] md:w-[70%] lg:h-[89vh] lg:w-[50vw] flex flex-col font-mono items-center justify-center">
         <div className="basis-1/5 w-full bg-purple-300 flex items-center justify-center flex-col rounded-t-md">
             <div className="basis-2/3 w-full flex items-center justify-between">
               <div className="basis-1/3 flex w-full items-start cursor-pointer" onClick={()=> navigate(-1)}>

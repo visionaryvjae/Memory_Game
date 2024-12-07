@@ -1,4 +1,3 @@
-import { BiLeftIndent } from "react-icons/bi";
 import { BsArrowLeftCircleFill } from "react-icons/bs";
 import { CgClose, CgRedo } from "react-icons/cg";
 import { useNavigate } from "react-router-dom";
@@ -16,7 +15,7 @@ function GameEnd({score, time, moves, reset, close}:Props) {
     const navigate = useNavigate();
 
   return (
-    <div className="absolute flex h-[70%] w-[30%] items-center justify-center bg-purple-200 flex-col rounded-md">
+    <div className="absolute flex h-[90%] w-[70%] lg:h-[70%] lg:w-[30%] items-center justify-center bg-purple-200 flex-col rounded-md">
         <div className="flex w-full p-2 items-center justify-end">
             <CgClose className="text-lg font-bold cursor-pointer" onClick={close}/>
         </div>

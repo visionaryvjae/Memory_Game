@@ -50,7 +50,7 @@ function Card({display, hide, isFlipped, index, HandleClick}:Props) {
   return (
     <div className={`card group perspective`} >
         {/* <img src="https://picsum.photos/45" /> */}
-      <div className={`absolute w-[150px] h-[90px] cursor-pointer transition-transform duration-500 transform ${Flipped ? 'rotate-y-180' : ''} ${hide}`} onClick={HandleClick}>
+      <div className={`absolute w-[90px] h-[70px] lg:w-[150px] lg:h-[90px] cursor-pointer transition-transform duration-500 transform ${Flipped ? 'rotate-y-180' : ''} ${hide}`} onClick={HandleClick}>
         {
           Flipped ? 
           <img onError={()=> {false}} src={display} className={'back'}  />
