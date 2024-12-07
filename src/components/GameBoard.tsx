@@ -118,13 +118,16 @@ function GameBoard() {
 
   const Reset =()=> {
     if(value.gamemode == "easy"){
-      navigate(`/${app}/play`, {state: {gamemode: "easy"}});
+      window.location.reload();
+      setTimer(90);
     }
     else if(value.gamemode == "normal"){
-      navigate(`/${app}/play`, {state: {gamemode: "easy"}});
+      window.location.reload();
+      setTimer(70);
     }
     else{
-      navigate(`/${app}/play`, {state: {gamemode: "easy"}});
+      window.location.reload();
+      setTimer(50);
     }
     console.log("clicked")
 
