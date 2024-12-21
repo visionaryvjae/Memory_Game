@@ -26,7 +26,7 @@ function Card({display, hide, isFlipped, index, HandleClick}:Props) {
       <div className={`absolute w-[70px] h-[70px] lg:w-[120px] lg:h-[90px] cursor-pointer transition-transform duration-500 transform ${Flipped ? 'rotate-y-180' : ''} ${hide}`} onClick={HandleClick}>
         {
           Flipped ? 
-          <img onError={()=> {false}} src={display} className={'back'}  />
+          <img onError={()=> {false}} src={display} className={'back'} loading="eager"  />
           :
           <div className="front">
             {index}
