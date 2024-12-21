@@ -4,11 +4,10 @@ interface  Props {
   display:string;
   hide: string;
   isFlipped: boolean;
-  index:string;
   HandleClick: ()=> void;
 }
 
-function Card({display, hide, isFlipped, index, HandleClick}:Props) {
+function Card({display, hide, isFlipped, HandleClick}:Props) {
 
   let Flipped = isFlipped;
 

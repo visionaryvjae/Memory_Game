@@ -183,7 +183,7 @@ function GameBoard() {
         <div className="basis-4/5 w-full place-items-center bg-yellow-300 grid grid-cols-4 grid-rows-5 p-3 rounded-b-md">
           {
             nums.map((card, index) => (
-            <Card display={card.image} key={index} index={""} HandleClick={async () => {(matchedCards.includes(card.CardNumber) || matchedCards2.includes(card.CardNumber)) ? null : HandleClickEvent(index);} } hide={(matchedCards.includes(card.CardNumber) || matchedCards2.includes(card.CardNumber)) ? "hidden" : ""} isFlipped={(currentItem == card.CardNumber)? true : false} />
+            <Card display={card.image} key={index} HandleClick={async () => {(matchedCards.includes(card.CardNumber) || matchedCards2.includes(card.CardNumber)) ? null : HandleClickEvent(index);} } hide={(matchedCards.includes(card.CardNumber) || matchedCards2.includes(card.CardNumber)) ? "hidden" : ""} isFlipped={(currentItem == card.CardNumber)? true : false} />
           ))}
         </div>
         <div>
