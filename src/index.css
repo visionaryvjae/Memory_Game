@@ -16,7 +16,6 @@
 
 .back {
   @apply absolute lg:w-[120px] lg:h-[90px] w-[70px] h-[70px] bg-blue-200 rounded-md backface-hidden;
-  background-image: url('/icons/card-bg.jpeg');
 }
 
 .links:hover{
